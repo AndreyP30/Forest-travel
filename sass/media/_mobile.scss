@@ -1,0 +1,145 @@
+/* Mobile */
+
+@media (max-width: 899px) {
+  .header-top,
+  .header-content {
+    width: 100%;
+    padding: 0px 15px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .inner-page {
+    padding: 40px 0 40px;
+  }
+
+  .header-title {
+    font-size: 42px;
+  }
+
+  // Main
+
+  .main {
+    padding: 60px 0;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  .main-header {
+    font-size: 42px;
+  }
+
+  .main-img {
+    width: 170px;
+    flex-shrink: 0;
+  }
+
+  .main-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .main-row {
+    flex-direction: row-reverse;
+    margin-bottom: 60px;
+  }
+
+  .main-text {
+    font-size: 16px;
+  }
+
+  // Button
+
+  .button {
+    padding: 12px 30px;
+    font-size: 18px;
+  }
+
+  // Cards
+
+  .cards-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-h2 {
+    font-size: 42px;
+  }
+
+  .card-title-wrapper {
+    padding: 0px 25px;
+  }
+
+  .card-link-wrapper:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .cards-row-column {
+    margin-bottom: 30px;
+  }
+
+  .card-link-wrapper.card.bigger {
+    max-width: 570px;
+  }
+
+  .card-link-wrapper.card.smaller {
+    max-width: 570px;
+  }
+
+  // Article
+  .row-article-page {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .article-nav-page {
+    width: 570px;
+    padding-top: 0;
+  }
+
+  .article-content {
+    margin-bottom: 40px;
+
+    h1 {
+      font-size: 42px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .article-img {
+    margin: 20px 0;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer-row {
+    flex-wrap: wrap;
+  }
+
+  .footer-widget-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-top: 0;
+    /* justify-content: space-between; */
+  }
+
+  .footer-widget-wrapper > * {
+    width: calc(50% - 15px);
+  }
+
+  .footer-copyring {
+    order: 1;
+    width: 100%;
+  }
+}
