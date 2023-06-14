@@ -1,0 +1,76 @@
+
+/* Cards grid */
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* Card */
+
+.card-link-wrapper {
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0px 30px;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.card-link-wrapper.card {
+  max-width: 570px;
+  
+}
+
+.card-link-wrapper.card.bigger {
+  max-width: 670px;
+
+}
+
+.card-link-wrapper.card.smaller {
+  max-width: 470px;
+
+}
+
+/* Cards color */
+
+.card-title-wrapper.grey-color {
+  background-color: #a6a6a6;
+}
+
+.card-title-wrapper.send-color {
+  background-color: #c1b19b;
+}
+
+.card-title-wrapper.aquamarine-color {
+  background-color: #66b0be;
+}
+
+.card-title-wrapper.brown-color {
+  background-color: #876f56;
+}
+
+.card-title-wrapper.green-color {
+  background-color: #27695e;
+}
