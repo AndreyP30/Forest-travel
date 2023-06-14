@@ -1,0 +1,70 @@
+/* ******** Contact page ******** */
+
+.contact-title-wrapper {
+  margin-bottom: 40px;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Contact info */
+
+.contact-block {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  &-list {
+    margin-bottom: 40px;
+  }
+
+  &-list li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  &-list li:last-child {
+    margin-bottom: 0px;
+  }
+
+  &-list a {
+    color: #138ece;
+  }
+
+  &-icon {
+    position: relative;
+    padding-left: 39px;
+  }
+
+  &-icon::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+}
+
+.contact-block-icon.phone::before {
+  background-image: url(./../img/contact-img/icon/phone.svg);
+}
+.contact-block-icon.mail::before {
+  background-image: url(./../img/contact-img/icon/mail.svg);
+}
+.contact-block-icon.adress::before {
+  background-image: url(./../img/contact-img/icon/map-pin.svg);
+}
+
+
